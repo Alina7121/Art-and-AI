@@ -1,0 +1,102 @@
+<!--Realism-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200;400&display=swap" rel="stylesheet">
+
+    <title>Art+Ai</title>
+</head>
+<body>
+  <header class="top-container">
+    <div class="logo">
+        <a href="./index.html"><img id="logo-img" src="./images/art+ai-removebg.png"alt="logo-pixeled paint pallette"width="100px"height="50"></a>
+</div>
+<div class="button-container">
+  <a href="./signin.html">  <button class="sign-in-btn">Sign In</button></a>
+  <a href="./signup.html"> <button class="sign-up-btn">Sign Up</button></a>
+</div>
+<div class="menu-icon">
+  <div class="bar"></div>
+  <div class="bar"></div>
+  <div class="bar"></div>
+</div>
+<nav class="nav-menu">
+  <div class="menu-container">
+    <ul>
+      <li class="dropdown">
+        <a href="./index.html" class="dropbtn">Art Styles </a>
+        <div class="dropdown-content">
+          <a href="./abstract.html"> Abstract Art</a>
+          <a href="./realism.html">Realism</a>
+          <a href="./surrealism.html">Surrealism</a>
+          <a href="./cubism.html">Cubism</a>
+          <a href="./Impressionism.html">Impressionism</a>
+        </div>
+      </li>
+      <li><a href="./gallery.html"> Gallery </a></li>
+      <li><a href="./impact.html"> Impact </a></li>
+      <li ><a href="./About-us.html">Contact Us </a></li>
+      </ul>
+      
+  </nav>   
+
+</header>
+<main class="container">
+    <section class="content">
+        <h1 class="header">Realism</h1>
+        <article>
+        <p>Realism was an influential art movement that emerged in the mid-19th century, primarily in France, although it had variations in other parts of Europe and the United States. Realism aimed to depict everyday life, society, and the world as it truly was, often focusing on the ordinary and the mundane.
+            Realist artists sought to represent the world with the utmost accuracy and truthfulness. They aimed to depict subjects in a way that mirrored reality, avoiding idealization or romanticization.</p>
+           
+            <p>Ordinary Subjects: Realist artworks typically featured ordinary people, landscapes, and scenes from everyday life. These subjects were often drawn from the working class, rural life, and urban environments.</p>
+         
+            <p>Detail and Precision: Realist paintings were characterized by meticulous attention to detail. Artists used precise brushwork and paid close attention to the accuracy of proportions, lighting, and perspective.</p>
+            
+            <p> Gustave Courbet: Gustave Courbet, a French artist, is often considered one of the leaders of the Realism movement. His painting "The Stone Breakers" is a notable example of Realist art, depicting two laborers engaged in a physically demanding task.</p>
+          
+            <p>  Jean-François Millet: Millet's works, such as "The Gleaners," often focused on rural life and agricultural labor. His paintings conveyed a sense of dignity and hardship in the lives of rural workers.</p>
+        
+             <p> Photography Influence: The invention of photography in the mid-19th century had a significant influence on Realism. While Realist artists continued to create paintings, photography became a powerful tool for capturing reality with precision.</p>
+           
+             <p> In conclusion, Realism was a significant art movement that sought to portray the world as it truly was, emphasizing accuracy, ordinary subjects, and social commentary. It represented a shift away from the romanticized and idealized depictions of the past and had a lasting impact on the development of modern art.</p></article>
+            <h1 class="header">AI in Realism</h1>
+            <article>
+        <p>Realist artists can use AI to access vast databases of reference images, historical photographs, and data. This can aid in their research and provide inspiration for their work, enabling them to explore a wide range of subjects and historical contexts.</p>
+       
+        <p> Image Restoration: AI can be used to restore and enhance old photographs and artworks. This can be particularly valuable for Realist artists who work with historical or damaged source material, allowing them to recreate and reinterpret these images with greater fidelity.</p>
+     
+        <p>Art Market and Analysis: AI can assist Realist artists in understanding art market trends, pricing, and audience preferences. AI algorithms can analyze data from the art world, helping artists make informed decisions about their work and its presentation.</p>
+        
+        <p>  Efficiency and Experimentation: AI tools can save Realist artists time and effort in rendering complex details, allowing them to experiment with various styles and techniques. This efficiency can encourage artistic exploration and the creation of more ambitious projects.</p>
+       
+        <p> In summary, AI offers Realist artists a range of tools and opportunities to enhance their work, from achieving higher levels of photorealism to exploring new artistic dimensions and concepts. While AI can be a valuable resource, it also raises questions about the role of the artist, authenticity, and the impact of technology on the practice of Realism in contemporary art.</p></article>
+        </section>
+        <section class="images">
+          <a href="javascript:void(0)" onclick="openLightbox('./images/realism-2.jpg')"> <img class="image-realism " src="./images/realism-2.jpg" width="300px" height="auto" alt="2 man digging"></a><p class="description">Gustave Courbet-
+            The Stonebreakers, 1849</p>
+            <br>
+            <a href="javascript:void(0)" onclick="openLightbox ('./images/realism.jpg')">  <img class="image-realism "  src="./images/realism.jpg"width="300px" height="auto" alt="man on the forse wearing hat"></a><p class="description">Leonardo.ai AI Generated Image</p>
+     </section>
+</main>
+<footer>
+<div class="left-links">
+<ul>
+<li><a href="./">Legal </a></li>
+<li><a href="./">  Accessibility  </a></li>
+<li><a href="./"> Privacy&Security</a></li>
+</ul>
+</div>
+</footer>
+<script src="script.js"></script>
+<div id="lightbox" class="lightbox">
+  <span class="close-btn" onclick="closeLightbox()">&times;</span>
+  <img id="lightbox-img" class="lightbox-img"style="width:auto" src="" alt="Zoomed in image">
+</div>
+</body>
+</html>

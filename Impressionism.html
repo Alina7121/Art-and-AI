@@ -1,0 +1,95 @@
+<!--Impressionism-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200;400&display=swap" rel="stylesheet">
+
+    <title>Art+Ai</title>
+</head>
+<body>
+  <header class="top-container">
+    <div class="logo">
+        <a href="./index.html"><img id="logo-img" src="./images/art+ai-removebg.png"alt="logo-pixeled paint pallette"width="100px"height="50"></a>
+</div>
+<div class="button-container">
+  <a href="./signin.html">  <button class="sign-in-btn">Sign In</button></a>
+  <a href="./signup.html"> <button class="sign-up-btn">Sign Up</button></a>
+</div>
+<div class="menu-icon">
+  <div class="bar"></div>
+  <div class="bar"></div>
+  <div class="bar"></div>
+</div>
+<nav class="nav-menu">
+  <div class="menu-container">
+    <ul>
+      <li class="dropdown">
+        <a href="./index.html" class="dropbtn">Art Styles </a>
+        <div class="dropdown-content">
+          <a href="./abstract.html"> Abstract Art</a>
+          <a href="./realism.html">Realism</a>
+          <a href="./surrealism.html">Surrealism</a>
+          <a href="./cubism.html">Cubism</a>
+          <a href="./Impressionism.html">Impressionism</a>
+        </div>
+      </li>
+      <li><a href="./gallery.html"> Gallery </a></li>
+      <li><a href="./impact.html"> Impact </a></li>
+      <li ><a href="./About-us.html">Contact Us </a></li>
+      </ul>
+      
+  </nav>   
+
+</header>
+<main class="container">
+<section class="content">
+    <h1 class="header">Impressionism</h1>
+    <article>
+<p>Impressionism was a revolutionary art movement that emerged in the late 19th century, primarily in France. It marked a departure from the academic and realistic styles of the time and introduced a new way of capturing the world through the eyes of the artist. Key characteristics of Impressionism include visible brushstrokes, vibrant colors, outdoor scenes, and a focus on everyday life.</p>
+  
+<p>Focus on Color and Brushwork: Impressionist painters used vibrant colors and loose, visible brushstrokes. These techniques allowed them to convey the play of light and shadow and create a sense of spontaneity in their paintings.</p>
+ 
+<p> Outdoor Scenes: Many Impressionist works were created en plein air, or outdoors, to observe and capture the effects of natural light. Landscapes, gardens, and scenes of daily life, such as cafes and gardens, were popular subjects.</p>
+
+<p>Influence of Photography: The invention of photography had a significant impact on Impressionism. Artists no longer needed to create realistic representations, as photography could do that. Instead, they explored the subjective and emotional aspects of a scene.</p>
+ 
+<p>Key figures in the Impressionist movement include Claude Monet, Pierre-Auguste Renoir, Edgar Degas, Camille Pissarro, and Berthe Morisot, among others. Each artist had their unique style and contributions to the movement.</p>
+    Impressionism had a profound impact on the development of modern art. It laid the groundwork for subsequent art movements such as Post-Impressionism, Fauvism, and even elements of Abstract Expressionism. Its emphasis on capturing the essence of a moment and the artist's subjective experience revolutionized art.</p>
+</article>
+<h1 class="header">Effect of AI on Impressionism:</h1>
+   <article>
+
+    <p>Inspiration and Collaboration: Impressionist artists can draw inspiration from AI-generated art to explore new ideas and techniques. They might incorporate AI-generated elements into their work or collaborate with AI as a creative tool. This can lead to innovative combinations of traditional Impressionist techniques and AI-generated aesthetics.
+    Artistic Exploration: AI provides artists with new tools for experimenting with light, color, and form, which are central themes in Impressionism. Artists can use AI to manipulate and analyze visual data in ways that align with the movement's focus on perception and sensation.</p>
+
+    <p> In summary, while Impressionism predates AI by many decades, AI has influenced this movement by offering artists new tools, sources of inspiration, and opportunities for experimentation. Artists have reacted to AI's impact by exploring the fusion of traditional Impressionist techniques with AI-generated aesthetics and by engaging in discussions about the evolving nature of art in the age of AI.”</p>
+</article>
+   </section>
+   <section class="images">
+    <a href="javascript:void(0)" onclick="openLightbox('./images/imp.png')">  <img class="image-impress" src="./images/imp.png"width="300px" height="auto" alt="Les Coquelicots” – 1873 by Claude Monet exhibited at Musee d’Orsay"><p class="description">Les Coquelicots” – 1873 by Claude Monet exhibited at Musee d’Orsay</p>
+    <br>
+    <a href="javascript:void(0)" onclick="openLightbox('./images/impressionism.jpg')"> <img class="image-impress" src="./images/impressionism.jpg"width="300px" height="auto" alt="river view generated by ai"><p class="description">Leonardo.ai AI Generated Image</p>
+</section>
+</main>
+<footer>
+<div class="left-links">
+<ul>
+<li><a href="./">Legal </a></li>
+<li><a href="./">  Accessibility  </a></li>
+<li><a href="./"> Privacy&Security</a></li>
+</ul>
+</div>
+<script src="script.js"></script>
+<div id="lightbox" class="lightbox">
+  <span class="close-btn" onclick="closeLightbox()">&times;</span>
+  <img id="lightbox-img" class="lightbox-img"style="width:auto" src="" alt="Zoomed in image">
+</div>
+</footer>
+</body>
+</html>

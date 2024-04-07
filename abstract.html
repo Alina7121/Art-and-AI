@@ -1,0 +1,97 @@
+<!--Abstract-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200;400&display=swap" rel="stylesheet">
+
+    <title>Art+Ai</title>
+</head>
+<body>
+  <header class="top-container">
+    <div class="logo">
+        <a href="./index.html"><img id="logo-img" src="./images/art+ai-removebg.png"alt="logo-pixeled paint pallette"width="100px"height="50"></a>
+</div>
+<div class="button-container">
+  <a href="./signin.html">  <button class="sign-in-btn">Sign In</button></a>
+  <a href="./signup.html"> <button class="sign-up-btn">Sign Up</button></a>
+</div>
+<div class="menu-icon">
+  <div class="bar"></div>
+  <div class="bar"></div>
+  <div class="bar"></div>
+</div>
+<nav class="nav-menu">
+  <div class="menu-container">
+    <ul>
+      <li class="dropdown">
+        <a href="./index.html" class="dropbtn">Art Styles </a>
+        <div class="dropdown-content">
+          <a href="./abstract.html"> Abstract Art</a>
+          <a href="./realism.html">Realism</a>
+          <a href="./surrealism.html">Surrealism</a>
+          <a href="./cubism.html">Cubism</a>
+          <a href="./Impressionism.html">Impressionism</a>
+        </div>
+      </li>
+      <li><a href="./gallery.html"> Gallery </a></li>
+      <li><a href="./impact.html"> Impact </a></li>
+      <li ><a href="./About-us.html">Contact Us </a></li>
+      </ul>
+      
+  </nav>   
+
+</header>
+<main class="container">
+<section>
+    <h1 class="header"> Abstract Art</h1>
+    <article>
+       <p> Abstract art is a modern art movement that emerged in the early 20th century, and it represents a significant departure from traditional representational art. Instead of seeking to depict recognizable objects or scenes, abstract artists focus on creating non-representational or non-objective artworks that emphasize form, color, line, and composition.
+Abstract art does not attempt to depict specific objects, people, or scenes from the physical world. Instead, it often emphasizes pure abstraction, where the artwork consists of shapes, colors, and lines that are divorced from recognizable forms.</p>
+
+<p>Expressiveness: Abstract art often conveys emotion, mood, or conceptual ideas through non-verbal means. Artists use abstract elements to express feelings, concepts, or ideas that may be difficult to articulate with representational imagery.
+Abstract art has seen various sub-movements and styles, including Cubism, Futurism, Constructivism, Suprematism, Abstract Expressionism, and Op Art, among others. Each of these movements explored abstraction in different ways.</p>
+<p>Influence of Technology: Advances in technology, such as photography and the growth of the industrial age, played a role in inspiring abstract artists. These developments led to new ways of seeing and experiencing the world, which abstract artists sought to capture in their work.</p>
+    </article>
+    <h1 class="header">AI has had a notable impact on abstract art in several ways:</h1>
+    <article>Generative Art: AI algorithms, especially Generative Adversarial Networks (GANs), have been used to create generative abstract art. These algorithms can produce intricate and visually striking abstract compositions, often based on training data or the artist's input.
+        Artists can use AI to extract inspiration from diverse sources, such as scientific data, social media content, or even the internet's collective output.</p>
+      
+        <p> Artistic Collaboration: Some artists collaborate with AI as a creative partner, using AI algorithms to generate elements or ideas that they incorporate into their abstract compositions. This collaborative approach can lead to innovative and unexpected outcomes.</p>
+        
+        <p> Recommendation: AI algorithms can assist in curating and recommending abstract art to collectors and art enthusiasts based on their preferences and historical context, helping introduce people to lesser-known abstract artists.</p>
+        <p> In conclusion, AI has expanded the possibilities of abstract art by offering new tools, techniques, and sources of inspiration. It has pushed the boundaries of abstraction by enabling artists to explore complex patterns, generate intricate compositions, and create interactive art experiences. While AI can complement and enhance the work of abstract artists, it also raises questions about the role of the artist, creativity, and the evolving relationship between human and machine in the world of art.
+      </p> </article>
+</section>
+<section class="images">
+ <a href="javascript:void(0)" onclick="openLightbox('./images/abstract ai.jpg')"><img class="image-abstract" src="./images/abstract ai.jpg"alt="abstract art created by ai with blue white colors"width="300px"height="auto"></a>
+<p class="description">AI Generated Image</p>
+<br>
+<a href="javascript:void(0)" onclick="openLightbox('./images/abstract crop.jpg')"><img class="image-abstract" src="./images/abstract crop.jpg"alt="abstract art with blue color palette" width="300px"height="auto"></a>
+<p class="description">Alina V.2019</p>
+<br>
+<a href="javascript:void(0)" onclick="openLightbox('./images/IMG-0850.jpg')"><img class="image-abstract"src="./images/IMG-0850.jpg"alt="abstract art with blue color palette" width="300px"height="auto"></a>
+<p class="description">Alina V.2019</p>
+</section>
+</main>
+<footer>
+<div class="left-links">
+<ul>
+<li><a href="./">Legal </a></li>
+<li><a href="./">  Accessibility  </a></li>
+<li><a href="./"> Privacy&Security</a></li>
+</ul>
+</div>
+<script src="script.js"></script>
+<div id="lightbox" class="lightbox">
+  <span class="close-btn" onclick="closeLightbox()">&times;</span>
+  <img id="lightbox-img" class="lightbox-img" src="" alt="Zoomed in image">
+</div>
+</footer>
+</body>
+</html>

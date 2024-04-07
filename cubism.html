@@ -1,0 +1,99 @@
+<!--Cubism-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200;400&display=swap" rel="stylesheet">
+
+    <title>Art+Ai</title>
+</head>
+<body>
+  <header class="top-container">
+    <div class="logo">
+        <a href="./index.html"><img id="logo-img" src="./images/art+ai-removebg.png"alt="logo-pixeled paint pallette"width="100px"height="50"></a>
+</div>
+<div class="button-container">
+  <a href="./signin.html">  <button class="sign-in-btn">Sign In</button></a>
+  <a href="./signup.html"> <button class="sign-up-btn">Sign Up</button></a>
+</div>
+<div class="menu-icon">
+  <div class="bar"></div>
+  <div class="bar"></div>
+  <div class="bar"></div>
+</div>
+<nav class="nav-menu">
+  <div class="menu-container">
+    <ul>
+      <li class="dropdown">
+        <a href="./index.html" class="dropbtn">Art Styles </a>
+        <div class="dropdown-content">
+          <a href="./abstract.html"> Abstract Art</a>
+          <a href="./realism.html">Realism</a>
+          <a href="./surrealism.html">Surrealism</a>
+          <a href="./cubism.html">Cubism</a>
+          <a href="./Impressionism.html">Impressionism</a>
+        </div>
+      </li>
+      <li><a href="./gallery.html"> Gallery </a></li>
+      <li><a href="./impact.html"> Impact </a></li>
+      <li ><a href="./About-us.html">Contact Us </a></li>
+      </ul>
+      
+  </nav>   
+
+</header>
+<main class="container">
+<section class="content">
+    <h1 class="header">Cubism</h1>
+   <article><p> Cubism was a revolutionary art movement that emerged in the early 20th century, fundamentally changing the way artists approached representation and perception. It is considered one of the most influential movements in the history of modern art.</p>
+       <p> Cubism was pioneered by Pablo Picasso and Georges Braque, primarily in the period between 1907 and 1914. It had its roots in the post-impressionist and Fauvist movements but soon evolved into its distinct style.</p>
+       <p> Multiple Perspectives: Cubist artists abandoned the traditional single-point perspective in favor of depicting multiple perspectives simultaneously. They portrayed objects and subjects from various angles and viewpoints within the same composition, giving the viewer a sense of the object's three-dimensionality.</p></article>
+
+    <h1 class="header">Analytic Cubism and Synthetic Cubism.</h1>
+ <article><p>Analytic Cubism (1907-1912): During this phase, artists like Picasso and Braque deconstructed objects into geometric forms and used a limited palette of earthy tones (browns, grays) to create intricate, abstract compositions. The goal was to analyze and break down the subject matter.</p>
+  <br>      
+  <p>Synthetic Cubism (1912-1914): In this phase, Cubist artists introduced collage and mixed media into their work. They incorporated real-world materials, such as newspaper clippings and sheet music, into their paintings. This marked a shift from pure abstraction to a more synthetic and diverse style.</p>
+        Picasso and other Cubist artists were greatly influenced by African and Iberian art. These artistic traditions emphasized bold, abstract shapes and non-naturalistic representations, which resonated with the Cubist approach.
+       
+        <p>Legacy: Cubism had a profound and lasting impact on the art world. It paved the way for subsequent modern art movements, including Abstract Art, Futurism, and Constructivism. Its emphasis on abstraction, multiple perspectives, and the deconstruction of reality challenged traditional artistic norms.</p>
+        
+        <p>  Artists: Aside from Picasso and Braque, other notable Cubist artists include Juan Gris, Fernand Léger, and Robert Delaunay, each of whom contributed to the movement in unique ways.</p>
+       
+        <p> In conclusion, Cubism was a revolutionary art movement that redefined how artists represented the world by breaking down objects into geometric forms, introducing multiple perspectives, and challenging the boundaries of traditional art. It played a crucial role in the development of modern art and continues to be a source of inspiration for artists and art enthusiasts today.</p></article> 
+<p class="description"></p>
+
+    <h1 class="header">Impact of AI</h1>
+   <article><p> AI can have a significant impact on the work of artists inspired by Cubism.</p>
+ 
+    <p> Enhancing Creativity: AI can serve as a source of inspiration for artists by generating unexpected and unconventional compositions. Artists can use AI-generated images as a starting point for their own creative processes, infusing AI-generated elements with their own style and vision.</p>
+     
+    <p>Artificial Intelligence as a Collaborator: Some artists choose to collaborate with AI as a creative partner, allowing AI algorithms to generate or influence certain aspects of their artworks. This collaborative approach can lead to unique and innovative interpretations of Cubism.
+        It's important to note that while AI offers valuable tools and inspiration, it doesn't replace the artist's creativity and vision. Artists in the Cubist style, as in any other art movement, still play a crucial role in shaping the concept, composition, and emotional depth of their artworks. AI is a tool that artists can incorporate into their creative process to expand their possibilities and explore new avenues within the Cubist style.</p></article>
+</section>
+<section class="images">
+  <a href="javascript:void(0)" onclick="openLightbox('./images/cubism.png')"> <img class="image-cubism"src="./images/cubism.png"alt="Pablo Picasso “Girl With a Mandoline"" width="300px" height="auto"></a><p class="description">By Pablo Picasso “Girl With a Mandoline” 1910</p>
+    <br>
+    <a href="javascript:void(0)" onclick="openLightbox('./images/leo Cubism.jpg')"> <img class="image-cubism" src="./images/leo Cubism.jpg"alt="ai generated image of cubism"width="300px" height="auto"></a><p class="description">Leonardo.ai AI Generated Image</p>
+</section>
+</main>
+<footer>
+<div class="left-links">
+<ul>
+<li><a href="./">Legal </a></li>
+<li><a href="./">  Accessibility  </a></li>
+<li><a href="./"> Privacy&Security</a></li>
+</ul>
+</div>
+<script src="script.js"></script>
+<div id="lightbox" class="lightbox">
+  <span class="close-btn" onclick="closeLightbox()">&times;</span>
+  <img id="lightbox-img" class="lightbox-img"style="width:auto" src="" alt="Zoomed in image">
+</div>
+</footer>
+</body>
+</html>

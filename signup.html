@@ -1,0 +1,82 @@
+<!--Sign Up Page-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Changa:wght@200;400&display=swap" rel="stylesheet">
+<title>Sign Up</title>
+</head>
+<body>
+  <header class="top-container">
+    <div class="logo">
+        <a href="./index.html"><img id="logo-img" src="./images/art+ai-removebg.png"alt="logo-pixeled paint pallette"width="100px"height="50"></a>
+</div>
+<div class="button-container">
+  <a href="./signin.html">  <button class="sign-in-btn">Sign In</button></a>
+  <a href="./signup.html"> <button class="sign-up-btn">Sign Up</button></a>
+</div>
+<div class="menu-icon">
+  <div class="bar"></div>
+  <div class="bar"></div>
+  <div class="bar"></div>
+</div>
+<nav class="nav-menu">
+  <div class="menu-container">
+    <ul>
+      <li class="dropdown">
+        <a href="./index.html" class="dropbtn">Art Styles </a>
+        <div class="dropdown-content">
+          <a href="./abstract.html"> Abstract Art</a>
+          <a href="./realism.html">Realism</a>
+          <a href="./surrealism.html">Surrealism</a>
+          <a href="./cubism.html">Cubism</a>
+          <a href="./Impressionism.html">Impressionism</a>
+        </div>
+      </li>
+      <li><a href="./gallery.html"> Gallery </a></li>
+      <li><a href="./impact.html"> Impact </a></li>
+      <li ><a href="./About-us.html">Contact Us </a></li>
+      </ul>
+      
+  </nav>   
+
+</header>
+    <main class="main-section-signup">
+      <form action="./submitPage.html" method="get" target="_blank">
+               <div class="centered-item"><h1 style="color:#9fd1f4">Registration Form</h1>
+                <p style="color:salmon">Please fill out this form with the required information</p></div>
+               
+                  <fieldset>
+                    <label for="user-name">Enter Your User Name: <input id="user-name" name="user-name" type="text" required /></label>
+                    <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+                    <label for="new-password">Create a New Password: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+                 <br>
+                  </fieldset>
+                  <fieldset>
+                    <br>
+                    <label for="remember-me">
+                        <input id="remember-me" type="checkbox" required name="remember-me" />Remember Me
+                      </label>
+                    </fieldset>
+                    <input type="submit" value="Submit" />
+                  <input type="reset" value="Cancel" class="cancel-button">
+                </form>
+
+    </main>
+<footer>
+<div class="left-links">
+<ul>
+<li><a href="./">Legal </a></li>
+<li><a href="./">  Accessibility  </a></li>
+<li><a href="./"> Privacy&Security</a></li>
+</ul>
+</div>
+<script src="script.js"></script>
+</footer>
+</body>
+</html>

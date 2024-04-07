@@ -1,0 +1,146 @@
+<!--Gallery-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <title>Art+Ai</title>
+</head>
+<body>
+  <header class="top-container">
+    <div class="logo">
+        <a href="./index.html"><img id="logo-img" src="./images/art+ai-removebg.png"alt="logo-pixeled paint pallette"width="100px"height="50"></a>
+</div>
+<div class="button-container">
+  <a href="./signin.html">  <button class="sign-in-btn">Sign In</button></a>
+  <a href="./signup.html"> <button class="sign-up-btn">Sign Up</button></a>
+</div>
+<div class="menu-icon">
+  <div class="bar"></div>
+  <div class="bar"></div>
+  <div class="bar"></div>
+</div>
+<nav class="nav-menu">
+  <div class="menu-container">
+    <ul>
+      <li class="dropdown">
+        <a href="./index.html" class="dropbtn">Art Styles </a>
+        <div class="dropdown-content">
+          <a href="./abstract.html"> Abstract Art</a>
+          <a href="./realism.html">Realism</a>
+          <a href="./surrealism.html">Surrealism</a>
+          <a href="./cubism.html">Cubism</a>
+          <a href="./Impressionism.html">Impressionism</a>
+        </div>
+      </li>
+      <li><a href="./gallery.html"> Gallery </a></li>
+      <li><a href="./impact.html"> Impact </a></li>
+      <li ><a href="./About-us.html">Contact Us </a></li>
+    </ul>    
+  </nav>   
+</header>
+<div class="filter-options">
+  <br><br>
+<i class="fas fa-filter filter-icon">Filter:</i>
+  <select id="art-styles">
+    <option value="all">All</option>
+    <option value="surrealism">Surrealism</option>
+    <option value="realism">Realism</option>
+    <option value="impressionism">Impressionism</option>
+    <option value="cubism">Cubism</option>
+    <option value="abstract">Abstract</option>
+  </select>
+</div>
+<div class="pagination">
+  <span class="page-number">Page 1 of 1</span>
+</div>
+<main class="gallery">
+  <div class="gallery-item">
+
+    <a href="javascript:void(0)" onclick="openLightbox('./images/1.jpg')">
+      <img class="myImg" src="./images/1.jpg" alt="surreal art" width="200px" height="175">
+    </a>
+    <!--<a href="./images/1.jpg"><img class="myImg" src="./images/1.jpg"alt="surreal art"width="200px"height="175"></a>
+    --><p class="description">Leonardo.ai AI Generated Image</p>
+</div>
+<div class="gallery-item">
+  <a href="javascript:void(0)" onclick="openLightbox('./images/2.jpg')"><img class="myImg" src="./images/2.jpg"alt="surreal art"width="200px"height="175"></a>
+<p class="description">Leonardo.ai AI Generated Image</p>
+</div>
+<div class="gallery-item">
+  <a href="javascript:void(0)" onclick="openLightbox('./images/3.jpg')"><img class="myImg" src="./images/3.jpg"alt="surreal art"width="200px"height="175"></a>
+<p class="description">Leonardo.ai AI Generated Image</p>
+</div>
+<div class="gallery-item">
+  <a href="javascript:void(0)" onclick="openLightbox('./images/12.jpg')"><img class="myImg" src="./images/12.jpg"alt="surreal art"width="200px"height="175"></a>
+<p class="description">Leonardo.ai AI Generated Image</p>
+</div>
+<div class="gallery-item">
+  <a href="javascript:void(0)" onclick="openLightbox('./images/4.jpg')"><img class="myImg" src="./images/4.jpg"alt="surreal art"width="200px"height="175"></a>
+<p class="description">Leonardo.ai AI Generated Image</p>
+</div>
+<div class="gallery-item">
+  <a href="javascript:void(0)" onclick="openLightbox('./images/5.jpg')"><img class="myImg" src="./images/5.jpg"alt="surreal art"width="200px"height="175"></a>
+<p class="description">Leonardo.ai AI Generated Image</p>
+</div>
+<div class="gallery-item">
+  <a href="javascript:void(0)" onclick="openLightbox('./images/6.jpg')"><img class="myImg" src="./images/6.jpg"alt="surreal art"width="200px"height="175"></a>
+<p class="description">Leonardo.ai AI Generated Image</p>
+</div>
+<div class="gallery-item">
+  <a href="javascript:void(0)" onclick="openLightbox('./images/7.jpg')"><img class="myImg" src="./images/7.jpg"alt="surreal art"width="200px"height="175"></a>
+<p class="description">Leonardo.ai AI Generated Image</p>
+</div>
+<div class="gallery-item">
+  <a href="javascript:void(0)" onclick="openLightbox('./images/14.jpg')"><img class="myImg" src="./images/14.jpg"alt="surreal art"width="200px"height="175"></a>
+<p class="description">Leonardo.ai AI Generated Image</p>
+</div>
+<div class="gallery-item">
+  <a href="javascript:void(0)" onclick="openLightbox('./images/8.jpg')"><img class="myImg" src="./images/8.jpg"alt="surreal art"width="200px"height="175"></a>
+<p class="description">Leonardo.ai AI Generated Image</p>
+</div>
+<div class="gallery-item">
+  <a href="javascript:void(0)" onclick="openLightbox('./images/9.jpg')"><img class="myImg" src="./images/9.jpg"alt="surreal art"width="200px"height="175"></a>
+<p class="description">Leonardo.ai AI Generated Image</p>
+</div>
+<div class="gallery-item">
+  <a href="javascript:void(0)" onclick="openLightbox('./images/10.jpg')"><img class="myImg" src="./images/10.jpg"alt="surreal art"width="200px"height="175"></a>
+<p class="description">Leonardo.ai AI Generated Image</p>
+</div>
+<div class="gallery-item">
+  <a href="javascript:void(0)" onclick="openLightbox('./images/11.jpg')"><img class="myImg" src="./images/11.jpg"alt="surreal art"width="200px"height="175"></a>
+<p class="description">Leonardo.ai AI Generated Image</p>
+</div>
+<div class="gallery-item">
+  <a href="javascript:void(0)" onclick="openLightbox('./images/13.jpg')"><img class="myImg" src="./images/13.jpg"alt="surreal art"width="200px"height="175"></a>
+<p class="description">Leonardo.ai AI Generated Image</p>
+</div>
+<div class="gallery-item">
+  <a href="javascript:void(0)" onclick="openLightbox('./images/15.jpg')"><img class="myImg" src="./images/15.jpg"alt="surreal art"width="200px"height="175"></a>
+<p class="description">Leonardo.ai AI Generated Image</p>
+</div>
+</main>
+<footer>
+<div class="left-links">
+<ul>
+<li><a href="./">Legal </a></li>
+<li><a href="./">  Accessibility  </a></li>
+<li><a href="./"> Privacy&Security</a></li>
+</ul>
+</div>
+<script src="script.js"></script>
+<div id="lightbox" class="lightbox">
+  <span class="close-btn" onclick="closeLightbox()">&times;</span>
+  <img id="lightbox-img" class="lightbox-img" src="" alt="Zoomed in image">
+</div>
+</footer>
+
+</body>
+</html>

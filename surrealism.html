@@ -1,0 +1,96 @@
+<!--Surrealism-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200;400&display=swap" rel="stylesheet">
+
+    <title>Art+Ai</title>
+</head>
+<body>
+  <header class="top-container">
+    <div class="logo">
+        <a href="./index.html"><img id="logo-img" src="./images/art+ai-removebg.png"alt="logo-pixeled paint pallette"width="100px"height="50"></a>
+</div>
+<div class="button-container">
+  <a href="./signin.html">  <button class="sign-in-btn">Sign In</button></a>
+  <a href="./signup.html"> <button class="sign-up-btn">Sign Up</button></a>
+</div>
+<div class="menu-icon">
+  <div class="bar"></div>
+  <div class="bar"></div>
+  <div class="bar"></div>
+</div>
+<nav class="nav-menu">
+  <div class="menu-container">
+    <ul>
+      <li class="dropdown">
+        <a href="./index.html" class="dropbtn">Art Styles </a>
+        <div class="dropdown-content">
+          <a href="./abstract.html"> Abstract Art</a>
+          <a href="./realism.html">Realism</a>
+          <a href="./surrealism.html">Surrealism</a>
+          <a href="./cubism.html">Cubism</a>
+          <a href="./Impressionism.html">Impressionism</a>
+        </div>
+      </li>
+      <li><a href="./gallery.html"> Gallery </a></li>
+      <li><a href="./impact.html"> Impact </a></li>
+      <li ><a href="./About-us.html">Contact Us </a></li>
+      </ul>
+      
+  </nav>   
+
+</header>
+<main class="container">
+    <section class="content">
+        <h1 class="header"> Surrealism</h1>
+        <article>
+        <p>“Surrealism was an artistic movement that emerged in the early 20th century, primarily in the 1920s. It sought to express the workings of the unconscious mind, exploring the irrational and fantastical aspects of human thought and creativity.
+            Surrealism originated in France as a response to the trauma and disillusionment brought about by World War I. It was heavily influenced by earlier art movements like Dadaism and Freudian psychoanalysis.</p>
+            <br>
+            <p>Surrealists believed that the rational mind repressed the irrational and subconscious thoughts and desires. They aimed to tap into the hidden realms of the mind to create art that defied logic and reason.
+            Surrealists often used techniques like automatic writing and drawing, which involved letting their thoughts flow freely onto paper without conscious control. This allowed for the emergence of unexpected and dreamlike imagery.</p>
+             <br>
+            <p>Surrealism drew inspiration from dreams, nightmares, and the bizarre. Surrealist artworks often featured strange, surreal, and even unsettling imagery that challenged conventional norms. It encouraged artists to explore the boundaries of reality and imagination, making it a pivotal movement in the development of modern and postmodern art.</p>
+            <br>
+            <p> Influence on Art and Literature: Surrealism had a significant impact on various art forms, including painting, sculpture, literature, film, and even fashion. Famous Surrealist artists include Salvador Dalí, René Magritte, and Max Ernst.”</p></article>
+            <br>
+            <h1 class="header">Surrealism/AI</h1>
+            <article>
+        <p>AI-driven software can analyze and interpret the content of dreams, transforming them into visual representations, there are several important aspects to consider regarding the fusion of AI technology and the surrealism art movement:
+            The Evolution of Surrealism: Surrealism as an art movement has always been marked by its willingness to embrace new technologies and techniques. AI's integration into surrealism represents a continuation of this tradition. It opens up exciting possibilities for artists to push the boundaries of the movement and explore new dimensions of surreal expression.
+            AI-driven surreal art allows individuals who may not have had traditional artistic training to engage in the creation of surreal artworks, democratizing the creative process and broadening the pool of artists.</p>
+            <br>
+            <p> In conclusion, the synergy between AI and the surrealism art movement represents a fascinating exploration of the human subconscious and the ever-evolving relationship between technology and creativity. “</p></article>
+        </section>
+        <section class="images">
+          <a href="javascript:void(0)" onclick="openLightbox('./images/salvador dali.webp')">  <img class="image-surreal"src="./images/salvador dali.webp" alt="image of melting time"width="300px"height="auto"></a><p class="description">Salvador Dalí
+            “The Persistence of Memory”1931</p>
+            <br>
+            <a href="javascript:void(0)" onclick="openLightbox('./images/surreal.jpg')"> <img class="image-surreal" src="./images/surreal.jpg"width="300px"height="auto"></a><p class="description">Leonardo.ai AI Generated Image</p>
+         <br>
+         <a href="javascript:void(0)" onclick="openLightbox('./images/sur.jpg')">  <img class="image-surreal" src="./images/sur.jpg"width="300px"height="auto"></a><p class="description">Leonardo.ai AI Generated Image</p>
+        </section>
+</main>
+<footer>
+<div class="left-links">
+<ul>
+<li><a href="./">Legal </a></li>
+<li><a href="./">  Accessibility  </a></li>
+<li><a href="./"> Privacy&Security</a></li>
+</ul>
+</div>
+<script src="script.js"></script>
+<div id="lightbox" class="lightbox">
+  <span class="close-btn" onclick="closeLightbox()">&times;</span>
+  <img id="lightbox-img" class="lightbox-img"style="width:auto" src="" alt="Zoomed in image">
+</div>
+</footer>
+</body>
+</html>
