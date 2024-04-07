@@ -647,3 +647,14 @@ font-size: 0.75em;
 text-decoration: underline;
 margin-right: 15px;
 }
+/*//inside footer----------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  .description {
+      font-size: 0.75rem;
+      width: 80%;
+    }
+    .container{
+      flex-direction: column;
+      
+    }
+  }
